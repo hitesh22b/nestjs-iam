@@ -1,0 +1,46 @@
+{
+  "uid" : "b1adbd57dea3f3f2",
+  "name" : "should return sum of one number",
+  "fullName" : "add.should return sum of one number",
+  "historyId" : "fbee6721e5fe122dc08eca002041b3e8",
+  "time" : {
+    "start" : 1599244742905,
+    "stop" : 1599244742910,
+    "duration" : 5
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "add"
+  }, {
+    "name" : "testClass",
+    "value" : "add"
+  }, {
+    "name" : "testMethod",
+    "value" : "should return sum of one number"
+  }, {
+    "name" : "package",
+    "value" : "add"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b1adbd57dea3f3f2.json",
+  "parameterValues" : [ ]
+}

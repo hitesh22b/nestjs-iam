@@ -1,0 +1,31 @@
+[ {
+  "uid" : "339ec386e6c0f489",
+  "name" : "should return sum of two number",
+  "time" : {
+    "start" : 1599244742911,
+    "stop" : 1599244742911,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8d71cb796decd4b",
+  "name" : "should return sum of more than two number",
+  "time" : {
+    "start" : 1599244742911,
+    "stop" : 1599244742912,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b1adbd57dea3f3f2",
+  "name" : "should return sum of one number",
+  "time" : {
+    "start" : 1599244742905,
+    "stop" : 1599244742910,
+    "duration" : 5
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

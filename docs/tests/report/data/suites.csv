@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Fri Sep 04 20:39:02 CEST 2020","Fri Sep 04 20:39:02 CEST 2020","1","","add","","add","should return sum of more than two number","should return sum of more than two number",""
+"passed","Fri Sep 04 20:39:02 CEST 2020","Fri Sep 04 20:39:02 CEST 2020","5","","add","","add","should return sum of one number","should return sum of one number",""
+"passed","Fri Sep 04 20:39:02 CEST 2020","Fri Sep 04 20:39:02 CEST 2020","0","","add","","add","should return sum of two number","should return sum of two number",""

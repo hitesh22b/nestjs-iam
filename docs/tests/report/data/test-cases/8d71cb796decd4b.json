@@ -1,0 +1,46 @@
+{
+  "uid" : "8d71cb796decd4b",
+  "name" : "should return sum of more than two number",
+  "fullName" : "add.should return sum of more than two number",
+  "historyId" : "f52ca2ac0bbe836d2a807c992737f148",
+  "time" : {
+    "start" : 1599244742911,
+    "stop" : 1599244742912,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "add"
+  }, {
+    "name" : "testClass",
+    "value" : "add"
+  }, {
+    "name" : "testMethod",
+    "value" : "should return sum of more than two number"
+  }, {
+    "name" : "package",
+    "value" : "add"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8d71cb796decd4b.json",
+  "parameterValues" : [ ]
+}
