@@ -1,9 +1,8 @@
 name: Publish Package
 
 on:
-  create:
-    tags:
-      - 'v*'
+  release:
+    types: [published]
 
 env:
   NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
