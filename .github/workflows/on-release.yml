@@ -60,7 +60,7 @@ jobs:
         with:
           node-version: 12
           registry-url: https://npm.pkg.github.com/
-          scope: '@learnapp-co'
+          scope: '@hitesh22b'
 
       - name: Cache
         uses: actions/cache@master
