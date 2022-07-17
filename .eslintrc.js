@@ -9,9 +9,8 @@ module.exports = {
     'plugin:@typescript-eslint/recommended',
     'plugin:@typescript-eslint/recommended-requiring-type-checking',
     'plugin:import/typescript',
-    'plugin:prettier/recommended',
-    'prettier/@typescript-eslint',
     'plugin:security/recommended',
+    'prettier',
   ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
@@ -20,7 +19,7 @@ module.exports = {
     tsconfigRootDir: '.',
     project: 'tsconfig.json',
   },
-  plugins: ['@typescript-eslint', 'jest', 'prettier', 'security', 'import'],
+  plugins: ['@typescript-eslint', 'jest', 'security', 'import'],
   settings: {
     'import/extensions': ['.ts', '.d.ts', '.js'],
     'import/parsers': {
@@ -37,13 +36,6 @@ module.exports = {
   },
   // add your custom rules here
   rules: {
-    'prettier/prettier': [
-      'error',
-      {
-        singleQuote: true,
-        semi: true,
-      },
-    ],
     'import/extensions': [
       'error',
       'always',
@@ -456,14 +448,6 @@ module.exports = {
       'off',
       {
         allow: ['arrowFunctions', 'functions', 'methods'],
-      },
-    ],
-    'no-unused-vars': [
-      'error',
-      {
-        vars: 'all',
-        args: 'after-used',
-        ignoreRestSiblings: true,
       },
     ],
     'no-use-before-define': [

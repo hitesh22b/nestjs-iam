@@ -16,8 +16,9 @@ module.exports = {
     '!**/.github/**',
     '!**/dist/**',
     '!**/docs/**',
+    '!**/*.enum.ts',
   ],
-  coveragePathIgnorePatterns: ['index.ts'],
+  coveragePathIgnorePatterns: ['index.ts', 'jwt-payload-extractor.decorator.ts', 'roles.decorator.ts'],
   coverageThreshold: {
     global: {
       statements: 100,
